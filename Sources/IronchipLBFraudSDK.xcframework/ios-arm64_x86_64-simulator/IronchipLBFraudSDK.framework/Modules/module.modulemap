@@ -1,0 +1,11 @@
+framework module IronchipLBFraudSDK {
+  umbrella header "IronchipLBFraudSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module IronchipLBFraudSDK.Swift {
+    header "IronchipLBFraudSDK-Swift.h"
+    requires objc
+}
